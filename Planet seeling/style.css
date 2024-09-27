@@ -1,0 +1,113 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    
+}
+
+.Logo{
+    border: 5px solid rgb(255, 253, 252);
+    padding: 10px 5px;
+}
+body{
+    background-color: #8a8a8a; 
+    font-family: "Montserrat Subrayada",sans-serif;
+
+}
+header{
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid black;
+}
+.signature{
+    border: 2px solid white;
+    font-size: medium;
+    color: white;
+}
+.signature:hover{
+    color: wheat;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+
+    
+}
+
+ul li a{
+    margin: 0px 5px 5px;
+    border: 2px solid white;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-decoration: none;
+    border-radius: 50px;
+}
+
+.signup{
+    color: rgb(239, 239, 243);
+    background-color: black;
+}
+
+.signup:hover{
+    color: black;
+    background-color: white;
+}
+main{
+    display: flex;
+    height: 90vh;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0px 150px;
+    flex-wrap: wrap;
+    border: 2px solid white;
+}
+
+main h2{
+    font-size: 30px;
+    text-transform:uppercase;
+
+}
+
+main p{
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 31.5px;
+    margin: 30px 0px;
+}
+.contentleft{
+    flex: 1
+}
+.contentcentre{
+    flex: 2
+}
+.contentright{
+    flex: 1
+}
+.Merc{
+    max-width: 200px;
+    height: auto;
+    
+}
+
+.btn{
+    padding: 15px 30px;
+    background: rgb(27, 26, 26);
+    outline: none;
+    border: none;
+    color: rgb(151, 151, 151);
+    border-radius: 50px;
+    font-weight: 900;
+    transition: 2s;
+}
+
+.btn:hover{
+    color:  rgb(27, 26, 26);
+    background: rgb(151, 151, 151);
+}
